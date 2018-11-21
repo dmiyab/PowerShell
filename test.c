@@ -5,8 +5,8 @@ int
 main ()
 {
   double a, c;
-  int r = scanf ("%lg%lg", &a, &с);
+  int r = scanf ("%lg%lg", &a, &c);
   assert (r == 2);
-  printf ("%lg\n", a + с);
+  printf ("%lg\n", a + c);
   return 0;
 }
