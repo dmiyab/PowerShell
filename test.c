@@ -4,7 +4,7 @@
 int
 main ()
 {
-  double a, b;
+  double a, c;
   int r = scanf ("%lg%lg", &a, &с);
   assert (r == 2);
   printf ("%lg\n", a + с);
