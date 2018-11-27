@@ -4,9 +4,9 @@
 int
 main ()
 {
-  double a, t;
-  int r = scanf ("%lg%lg", &a, &t);
+  double a, f;
+  int r = scanf ("%lg%lg", &a, &f);
   assert (r == 2);
-  printf ("%lg\n", a + t);
+  printf ("%lg\n", a + f);
   return 0;
 }
